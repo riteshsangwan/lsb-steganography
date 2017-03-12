@@ -1,5 +1,4 @@
-package com.mavika.stenography;
-
+package com.mavika.steganography;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -17,7 +16,7 @@ import java.util.Deque;
  * <p>
  * This program is implementation of LSB stenography algorithm to hide a secret message inside a cover image
  */
-public class LsbStenography {
+public class LsbSteganography {
 
     /**
      * Default password to encrypt and decrypt
@@ -42,7 +41,7 @@ public class LsbStenography {
      * @see #printUsage for detailed description of each command line argument
      */
     public static void main(String[] args) throws Exception {
-        final AESCrypt aesCrypt = new AESCrypt();
+        AESCrypt aesCrypt = new AESCrypt();
         /**
          * Validate the input arguments
          * @see #printUsage(Exception) to have a detailed understanding of all the supported arguments

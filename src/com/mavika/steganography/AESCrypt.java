@@ -1,4 +1,4 @@
-package com.mavika.stenography;
+package com.mavika.steganography;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
